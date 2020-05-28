@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Vaishnavi Bharambe</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="../static/css/base.css">
+    <link rel="stylesheet" href="../static/css/vendor.css">
+    <link rel="stylesheet" href="../static/css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="../static/js/modernizr.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="../static/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../static/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body id="top">
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="dots-fade">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header header">
+
+        <div class="header__logo">
+            <a class="logo" href="index.html">
+
+            </a>
+        </div>
+        <!-- end header__logo -->
+
+        <a class="header__toggle-menu" href="#0" title="Menu"><span>Menu</span></a>
+        <nav class="header__nav-wrap">
+
+            <h2 class="header__nav-heading h6">Navigate to</h2>
+
+            <ul class="header__nav">
+                <li class="current"><a href="{{ url_for('hello') }}" title="">Home</a></li>
+                <li class="has-children">
+                    <a href="#0" title="">My Profile</a>
+                    <ul class="sub-menu">
+                        <li><a href="{{ url_for('category') }}">Educational Background</a></li>
+                        <li><a href="{{ url_for('projects') }}">Projects</a></li>
+                        <li><a href="{{ url_for('activities') }}">Social Activities</a></li>
+                    </ul>
+                </li>
+                <li><a href="{{ url_for('blog') }}" title="">Blog</a></li>
+
+                <li><a href="{{ url_for('contact') }}" title="">Contact</a></li>
+            </ul>
+            <!-- end header__nav -->
+
+            <a href="#0" title="Close Menu" class="header__overlay-close close-mobile-menu">Close</a>
+
+        </nav>
+        <!-- end header__nav-wrap -->
+
+    </header>
+    <!-- s-header -->
+
+
+    <!-- featured 
+    ================================================== -->
+    <section class="s-featured">
+        <div class="row">
+            <div class="col-full">
+
+                <div class="featured-slider featured" data-aos="zoom-in">
+
+                    <div class="featured__slide">
+                        <div class="entry">
+
+                            <div class="entry__background" style="background-image:url('../static/images/thumbs/featured/featured-guitarman.jpg');"></div>
+
+                            <div class="entry__content">
+                                <span class="entry__category"><a href="#0">Technology</a></span>
+
+                                <h1><a href="#0" title="">“Computer Science is no more about computers than astronomy is about telescopes.”</a></h1>
+
+                                <div class="entry__info">
+                                    <a href="#0" class="entry__profile-pic">
+                                        <img class="avatar" src="../static/images/avatars/utkarsh.jfif" alt="">
+                                    </a>
+                                    <ul class="entry__meta">
+                                        <li><a href="#0">Vaishnavi Bharambe</a></li>
+                                        <li>May 22, 2020</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- end entry__content -->
+
+                        </div>
+                        <!-- end entry -->
+                    </div>
+                    <!-- end featured__slide -->
+
+                    <div class="featured__slide">
+
+                        <div class="entry">
+
+                            <div class="entry__background" style="background-image:url('../static/images/thumbs/featured/featured-watch.jpg');"></div>
+
+                            <div class="entry__content">
+                                <span class="entry__category"><a href="#0">Machine Learning</a></span>
+
+                                <h1><a href="#0" title="">“A baby learns to crawl, walk and then run.  We are in the crawling stage when it comes to applying machine learning.”</a></h1>
+
+                                <div class="entry__info">
+                                    <a href="#0" class="entry__profile-pic">
+                                        <img class="avatar" src="../static/images/avatars/utkarsh.jfif" alt="">
+                                    </a>
+
+                                    <ul class="entry__meta">
+                                        <li><a href="#0">Vaishnavi Bharambe</a></li>
+                                        <li>May 22, 2020</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- end entry__content -->
+
+                        </div>
+                        <!-- end entry -->
+
+                    </div>
+                    <!-- end featured__slide -->
+
+                    <div class="featured__slide">
+
+                        <div class="entry">
+
+                            <div class="entry__background" style="background-image:url('../static/images/thumbs/featured/featured-beetle.jpg');"></div>
+
+                            <div class="entry__content">
+                                <span class="entry__category"><a href="#0">Artificial intelligence</a></span>
+
+                                <h1><a href="#0" title="">"As more and more artificial intelligence is entering into the world, more and more emotional intelligence must enter into leadership."</a></h1>
+
+                                <div class="entry__info">
+                                    <a href="#0" class="entry__profile-pic">
+                                        <img class="avatar" src="../static/images/avatars/utkarsh.jfif" alt="">
+                                    </a>
+
+                                    <ul class="entry__meta">
+                                        <li><a href="#0">Vaishnavi Bharambe</a></li>
+                                        <li>May 22, 2020</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- end entry__content -->
+
+                        </div>
+                        <!-- end entry -->
+
+                    </div>
+                    <!-- end featured__slide -->
+
+                </div>
+                <!-- end featured -->
+
+            </div>
+            <!-- end col-full -->
+        </div>
+    </section>
+    <!-- end s-featured -->
+    <div style="text-align: center;background-color: black">
+        <h2 style="color:white">Let us visit one of most emerging technology known as Machine Learning !</h2>
+        </br>
+        </br>
+        <p style="color:beige">Machine learning is an application of artificial intelligence (AI) </br>that provides systems the ability to automatically learn and improve </br>from experience without being explicitly programmed.</br> Machine learning focuses on the development
+            of computer programs</br> that can access data and use it learn for themselves.</p>
+        <p style="color:beige"><a href="blog.html"><b>Read More...</b></a></p>
+    </div>
+    </br>
+    </br>
+    </br>
+    <!-- s-footer
+    ================================================== -->
+    <footer class="s-footer">
+
+        <div class="s-footer__main">
+            <div class="row">
+
+                <div class="col-six tab-full s-footer__about">
+
+                    <h4>About Vaishnavi</h4>
+
+                    <p>I am a freelance full stack web developer and data science enthusiast. Feel free to reach out to me for any queries.</p>
+                    .</p>
+
+                </div>
+                <!-- end s-footer__about -->
+
+                <div class="col-six tab-full s-footer__subscribe">
+
+                    <h4>Our Work</h4>
+
+                    <p>I have previously worked with reputed firms to build their websites and have recieved excellent feedback.</p>
+
+                    <div class="subscribe-form">
+                        <form id="mc-form" class="group" novalidate="true">
+
+                            <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="">
+
+                            <input type="submit" name="subscribe" value="Send">
+
+                            <label for="mc-email" class="subscribe-message"></label>
+
+                        </form>
+                    </div>
+
+                </div>
+                <!-- end s-footer__subscribe -->
+
+            </div>
+        </div>
+        <!-- end s-footer__main -->
+
+        <div class="s-footer__bottom">
+            <div class="row">
+
+                <div class="col-six">
+                    <ul class="footer-social">
+                        <li>
+                            <a href="#0"><i class="fab fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="#0"><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="#0"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="#0"><i class="fab fa-youtube"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-six">
+                    <div class="s-footer__copyright">
+                        <span>
+        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Vaishnavi</a>
+        
+        </span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- end s-footer__bottom -->
+
+        <div class="go-top">
+            <a class="smoothscroll" title="Back to Top" href="#top"></a>
+        </div>
+
+    </footer>
+    <!-- end s-content -->
+    <!-- Java Script
+    ================================================== -->
+    <script src="../static/js/jquery-3.2.1.min.js"></script>
+    <script src="../static/js/plugins.js"></script>
+    <script src="../static/js/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Vaishnavi Bharambe</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="../static/css/base.css">
+    <link rel="stylesheet" href="../static/css/vendor.css">
+    <link rel="stylesheet" href="../static/css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="../static/js/modernizr.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="../static/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../static/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body id="top">
+    <div style="background-color: navajowhite">
+
+        <!-- preloader
+    ================================================== -->
+        <div id="preloader">
+            <div id="loader" class="dots-fade">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+
+
+        <!-- header
+    ================================================== -->
+        <header class="s-header header">
+
+            <div class="header__logo">
+                <a class="logo" href="index.html">
+
+                </a>
+            </div>
+            <!-- end header__logo -->
+
+            <a class="header__toggle-menu" href="#0" title="Menu"><span>Menu</span></a>
+            <nav class="header__nav-wrap">
+
+                <h2 class="header__nav-heading h6">Navigate to</h2>
+
+                <ul class="header__nav">
+                    <li class="current"><a href="{{ url_for('hello') }}" title="">Home</a></li>
+                    <li class="has-children">
+                        <a href="#0" title="">My Profile</a>
+                        <ul class="sub-menu">
+                            <li><a href="{{ url_for('category') }}">Educational Background</a></li>
+                            <li><a href="{{ url_for('projects') }}">Projects</a></li>
+                            <li><a href="{{ url_for('activities') }}">Social Activities</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="{{ url_for('blog') }}" title="">Blog</a></li>
+
+                    <li><a href="{{ url_for('contact') }}" title="">Contact</a></li>
+                </ul>
+                <!-- end header__nav -->
+
+                <a href="#0" title="Close Menu" class="header__overlay-close close-mobile-menu">Close</a>
+
+            </nav>
+            <!-- end header__nav-wrap -->
+
+        </header>
+        <!-- s-header -->
+
+        <div>
+            </br>
+            </br>
+            <h1 style="text-align: center"><b>Projects</b></h1>
+            <p style="text-align: center">I have done various projects in various technical domains. </br>I believe the real understanding of topic lies within implementation.</p>
+        </div>
+        <div style="height: 5px;width:100%;background-color:black"></div>
+        <div style="height:340px;">
+
+
+            <span>  <p ><img style="float:left;padding-left: 15px;padding-top: 30px;height: 340px;width:280px" src="../static/images/avatars/ehr.jpg">
+        <b style="padding-left: 15px;font-size:30px">Electronic health Records</b>
+
+
+        </br><b style="padding-left: 15px">Aim : </b>To develop a blackchain application which stored a patient records, so that patient haven't any need to bring his whole medical records </br>
+
+        <b style="padding-left: 15px">Duration : </b>Feb 2020 - April 2020</br>
+        
+        <b style="padding-left: 15px">Working : </b></br>
+        <b style="padding-left: 15px">1. </b>Citizens will upload the info or doctor can.</br>
+        <b style="padding-left: 15px">2. </b>Web Application will fetch this data and stored on blockchain via NodeJS </br>
+        <b style="padding-left: 15px">3. </b>Doctor has to register himself first.</br>
+        <b style="padding-left: 15px">4. </b>The verified doctor only can see the paitent record</br>
+        <b style="padding-left: 15px">5. </b>Only allowed Doctor can see paitent records.</br>
+        <b style="padding-left: 15px">Tools : </b>NODEJS , Ethereum , Metamask etc
+    </p>
+       
+    </span>
+        </div>
+        </br>
+        <div style="height: 5px;width:100%;background-color:black"></div>
+        <div style="height:340px;">
+
+
+            <span>  <p ><img style="float:left;padding-left: 15px;padding-top: 40px;height: 326px;width:280px" src="../static/images/avatars/chatbot.jpg">
+        <b style="padding-left: 15px;font-size:30px">Depression Theropy Chatbot</b>
+
+
+        </br><b style="padding-left: 15px">Aim : </b>To bring someone out from his Depression </br>
+
+       
+        <b style="padding-left: 15px">Duration : </b>July 2019 - Jan 2020</br>
+        <b style="padding-left: 15px">Working : </b></br>
+        <b style="padding-left: 15px">1. </b>User has to talk with chatbot.</br>
+        <b style="padding-left: 15px">2. </b>If there is depression in his mood then chatbot reconginse it and provide a proper recommendation. </br>
+       
+        <b style="padding-left: 15px">Tools : </b>TensorFlow , NLP etc
+    </p>
+    </span>
+        </div>
+
+        <div style="height: 5px;width:100%;background-color:black"></div>
+        <div style="height:350px;">
+
+
+            <span>  <p ><img style="float:left;padding-left: 15px;padding-top: 20px;height: 320px;width:280px" src="../static/images/avatars/face.jfif">
+        <b style="padding-left: 15px;font-size:30px">Event Management Application</b>
+
+
+    </br><b style="padding-left: 15px">Aim : </b>To improve registration process for events </br>
+
+       
+    <b style="padding-left: 15px">Duration : </b>Aug 2019 - Nov 2019</br>
+    <b style="padding-left: 15px">Working : </b></br>
+    <b style="padding-left: 15px">1. </b>The participents are asked to send their photo to store in database.</br>
+    <b style="padding-left: 15px">2. </b>On event day, participents are validated according to solo or group registration with android appication. </br>
+    <b style="padding-left: 15px">3. </b>Various functionalities are provided according to different authorizations.</br>
+    <b style="padding-left: 15px">4. </b>The application will overall help manage the event easily.</br>
+    <b style="padding-left: 15px">Tools : </b>Ionic , Angular , Microsoft Face API , Firebase </p>
+</span>
+        </div>
+
+        <div style="height: 5px;width:100%;background-color:black"></div>
+        <div style="height:300px;">
+
+
+            <span>  <p ><img style="float:left;padding-left: 15px;padding-top: 20px;height: 270px;width:280px" src="../static/images/avatars/heart.jfif">
+    <b style="padding-left: 15px;font-size:30px">Heart Disease Prediction</b>
+
+
+</br><b style="padding-left: 15px">Aim : </b>To predict heart diseases using machine learning </br>
+
+   
+<b style="padding-left: 15px">Duration : </b>May 2020 - May 2020</br>
+<b style="padding-left: 15px">Featres : </b></br>
+<b style="padding-left: 15px">1. </b>Machine Learning and Data Science project.</br>
+<b style="padding-left: 15px">2. </b>Various input parameters are taken from user as input to ML model. </br>
+<b style="padding-left: 15px">3. </b>Applied various techniques to improve accuracy by dealing with hyper-parameters.</br>
+</p>
+</span>
+        </div>
+
+
+
+
+
+
+        <div style="height: 5px;width:100%;background-color:black"></div>
+        </br>
+    </div>
+    <footer class="s-footer">
+
+        <div class="s-footer__main">
+            <div class="row">
+
+                <div class="col-six tab-full s-footer__about">
+
+                    <h4>About Utkarsh</h4>
+
+                    <p>I am a freelance full stack web developer and data science enthusiast. Feel free to reach out to me for any queries.</p>
+                    .</p>
+
+                </div>
+                <!-- end s-footer__about -->
+
+                <div class="col-six tab-full s-footer__subscribe">
+
+                    <h4>Our Work</h4>
+
+                    <p>I have previously worked with reputed firms to build their websites and have recieved excellent feedback.</p>
+
+                    <div class="subscribe-form">
+                        <form id="mc-form" class="group" novalidate="true">
+
+                            <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="">
+
+                            <input type="submit" name="subscribe" value="Send">
+
+                            <label for="mc-email" class="subscribe-message"></label>
+
+                        </form>
+                    </div>
+
+                </div>
+                <!-- end s-footer__subscribe -->
+
+            </div>
+        </div>
+        <!-- end s-footer__main -->
+
+        <div class="s-footer__bottom">
+            <div class="row">
+
+                <div class="col-six">
+                    <ul class="footer-social">
+                        <li>
+                            <a href="#0"><i class="fab fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="#0"><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="#0"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="#0"><i class="fab fa-youtube"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-six">
+                    <div class="s-footer__copyright">
+                        <span>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Vaishnavi</a>
+
+</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- end s-footer__bottom -->
+
+        <div class="go-top">
+            <a class="smoothscroll" title="Back to Top" href="#top"></a>
+        </div>
+
+    </footer>
+
+
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="../static/js/jquery-3.2.1.min.js"></script>
+    <script src="../static/js/plugins.js"></script>
+    <script src="../static/js/main.js"></script>
+
+
+</body>
+
+</html>
